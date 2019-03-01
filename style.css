@@ -5,6 +5,11 @@ body {
   line-height: 1.8;
 }
 
+main section:not(:last-child){
+  border-bottom: 1px solid black;
+}
+
+
 article {
   padding:0 1em;
 }
@@ -23,20 +28,30 @@ header {
   text-align: center;
   background-size: cover;
   background-image: url('img/bg.jpg');
-  background-position: center;
-  /*background-image: url('sciezka');*/
+  background-position: fixed;
+  color: white;
 }
 
 header section {
   margin: 0 auto;
-}
-
-header img {
-
+  max-width: 640px;
 }
 
 h1 {
-  margin: 1em 0;
+  margin: 1em auto;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 36px;
+}
+
+h2 {
+  margin: 0 0;
+  font-size: 18px;
+}
+
+h3 {
+  font-weight: bold;
+  text-transform: uppercase;
 }
 
 main {
