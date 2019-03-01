@@ -73,20 +73,23 @@ main {
 .job .title {
   color: #2F4F4F;
   font-weight: bold;
-  -ms-flex: 0 0 33.3%;
-  flex: 0 0 33.3%;
-  max-width: 33%;
-  padding-top: 1em;
+  -ms-flex: 0 0 25%;
+  flex: 0 0 25%;
+  max-width: 25%;
 }
 
 .job .descrition {
-  -ms-flex: 0 0 66.6%;
-  flex: 0 0 66.6%;
-  max-width: 66.6%
+  -ms-flex: 0 0 75%;
+  flex: 0 0 75%;
+  max-width: 75%;
+  padding-bottom: 1em;
 }
 
-.job .descrition p{
+
+.descrition span {
   padding-left: 1em;
+  font-weight: bold;
+  color: #2F4F4F;
 }
 
 .skills {
