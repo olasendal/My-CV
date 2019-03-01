@@ -55,6 +55,10 @@ h3 {
   margin-top: 0;
 }
 
+h4 {
+  margin-top: 0;
+}
+
 main {
   max-width: 1140px;
 }
@@ -96,6 +100,7 @@ main {
   -ms-flex: 0 0 33.3%;
   flex: 0 0 33.3%;
   max-width: 33.3%;
+  margin: 0;
 }
 
 ul {
@@ -122,8 +127,19 @@ ul.list-dashed >li:before {
 .school {
   color: #2F4F4F;
   font-weight: bold;
-  padding-top: 1em;
+  padding-top: 0;
   margin: 0;
+}
+
+.info {
+  padding-bottom: 1em;
+}
+
+img {
+  width: 65%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 footer {
