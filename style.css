@@ -143,5 +143,36 @@ img {
 }
 
 footer {
- padding: 1em;
+ background-image: url('img/bg.jpg');
+ color: white;
+ background-position: bottom;
+ display: -ms-flexbox;
+ display: flex;
+ -ms-flex-wrap: wrap;
+ flex-wrap: wrap;
+ padding-left: 35%;
+ padding-top: 1em;
+ padding-bottom: 1em;
+}
+
+.icon {
+  -ms-flex: 40% 20% 20% 20%;
+  flex: 40% 20% 20% 20%;
+  max-width: 40%;
+  margin: 0;
+}
+
+i {
+  size: 3px;
+  padding-left: 1em;
+  padding-right: 1em;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+a:hover {
+  opacity: 0.5;
 }
