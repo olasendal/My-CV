@@ -30,7 +30,7 @@ header {
   background-image: url('img/bg.jpg');
   background-position: fixed;
   color: white;
-  max-height: 700px;
+  max-height: 600px;
 }
 
 header section {
@@ -179,4 +179,24 @@ a {
 
 a:hover {
   opacity: 0.5;
+}
+
+@media only screen and (max-width: 768px) {
+  .job {
+    display: block;
+  }
+
+  .job .title, job .descrition {
+    max-width: 100%;
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  .skills {
+    display: block;
+  }
+
+  .skills .column {
+    max-width: 100%;
+  }
 }
